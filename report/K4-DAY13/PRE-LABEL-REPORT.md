@@ -4,15 +4,16 @@ Giữ bản đã điền ngoài Git, trong thư mục nhóm private do LC thu. �
 
 ## Nhóm và provenance
 
-- Mã nhóm/phòng:
-- Thành viên: xem `TEAMMATES.md` (họ tên/MSSV, vai trò từng lượt).
-- Trạng thái: `executed-by-group` / `executed-on-room-LC-machine` / `provided-results`.
-- Người thực sự chạy; ngày/giờ; hệ máy/architecture:
-- Image tag và image ID; phiên bản repo:
-- PCD được cấp / frame_id; nơi được phép chạy; fingerprint nếu LC cấp:
-- Checkpoint: PointPillars KITTI có sẵn trong image; ghi checkpoint ID/hash nếu LC cấp:
-- Phạm vi: front-window; score threshold:
-- Giả định kênh thứ tư/intensity và nguồn z_ground:
+
+- Mã nhóm/phòng: Solo-01 (Làm việc cá nhân)
+- Thành viên: xem `TEAMMATES.md` (Thực hiện bởi 1 thành viên duy nhất).
+- Trạng thái: `executed-by-group` (Làm việc cá nhân)
+- Người thực sự chạy; ngày/giờ; hệ máy/architecture: Nguyễn Phúc Đại; 2/10/2026
+- Image tag và image ID; phiên bản repo: pointpillars:latest / repo v1.0
+- PCD được cấp / frame_id; nơi được phép chạy; fingerprint nếu LC cấp: Phòng lab 
+- Checkpoint: PointPillars KITTI có sẵn trong image; ghi checkpoint ID/hash nếu LC cấp: 
+- Phạm vi: front-window; score threshold: 
+- Giả định kênh thứ tư/intensity và nguồn z_ground: 
 
 ## Ba lượt inference thật
 
@@ -41,7 +42,11 @@ Ghi rõ helper tạo biến đổi có chủ đích từ prediction, không ph�
 
 ## Nhận xét cá nhân
 
-Mỗi thành viên tự viết một mục: vai trò đã làm; một quan sát A/B/C có dẫn file hoặc hộp/vùng; diễn giải phép z thuận/ngược; một quyết định lỗi batch và hành động; điều chưa chắc. Chỉ đọc kết quả chuẩn bị trước thì ghi rõ chưa tự chạy.
+Mỗi thành viên tự viết một mục: thực hiện kiểm tra nhãn trong 15 ảnh
+- Thêm/bớt hộp cuboids bao quanh vật thể (cả hộp đè trùng nhau)
+- Tinh chỉnh vị trí hộp cho hợp lý (bao trọn vật thể, không cho lấn vô không gian xung quanh)
+- Kiểm tra độ chính xác việc gán nhãn vật thể
+ một quan sát A/B/C có dẫn file hoặc hộp/vùng; diễn giải phép z thuận/ngược; một quyết định lỗi batch và hành động; điều chưa chắc. Chỉ đọc kết quả chuẩn bị trước thì ghi rõ chưa tự chạy.
 
 ## LC ghi nhận riêng
 

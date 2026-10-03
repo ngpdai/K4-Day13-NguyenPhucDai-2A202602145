@@ -6,7 +6,7 @@ Mã nhóm/phòng:
 
 | Họ và tên | MSSV | Vai trò lượt A | Vai trò lượt B | Vai trò lượt C |
 | --- | --- | --- | --- | --- |
-| | | | | |
+|Nguyễn Phúc Đại | 2A202602145|Runner & Analyzer (Chạy inference & phân tích) |Runner & Analyzer (Chạy inference & phân tích) |Runner & Analyzer (Chạy inference & phân tích) |
 | | | | | |
 | | | | | |
 | | | | | |
